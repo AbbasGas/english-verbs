@@ -1,0 +1,29 @@
+{
+  "name": "english-verbs",
+  "version": "1.0.0",
+  "description": "A game to learn english verbs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezecavallo/english-verbs.git"
+  },
+  "keywords": [
+    "english",
+    "verbs",
+    "game",
+    "javascript"
+  ],
+  "author": "Ezequiel Cavallo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezecavallo/english-verbs/issues"
+  },
+  "homepage": "https://github.com/ezecavallo/english-verbs#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
