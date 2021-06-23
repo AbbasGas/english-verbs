@@ -1,6 +1,7 @@
 export const infinitives = [
     'fly',
-    'wrap'
+    'wrap',
+    'flew'
 ]
 
 export const pastSimple = [
