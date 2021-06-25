@@ -1,2 +1,2 @@
 # english-verbs
-A play to learn english verbs
+A game to learn english verbs
