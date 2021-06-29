@@ -43,3 +43,21 @@ html, body {
 .tile[selected] {
     background: red;
 }
+
+@media (max-width: 75em) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 52em) {
+  .container {
+    width: 100%;
+  }
+  .wrap {
+      display: block;
+  }
+  .tiles_container {
+      padding: 0;
+  }
+}
