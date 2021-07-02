@@ -41,7 +41,7 @@ html, body {
 }
 
 .tile[selected] {
-    background: red;
+    background: #f9db83;
 }
 
 @media (max-width: 75em) {

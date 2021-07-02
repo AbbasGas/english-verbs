@@ -169,22 +169,28 @@ class Game {
             elements.forEach(e => {
                 this.removePreviusClickEvent(e)
                 this.removeClickEventListener(e)
-                this.changeStyle(e)
+                this.changeStyleToCorrect(e)
             });
         }, 300)
     }
 
     markAsWrongAnswer(elements) {
-        setTimeout(() => {
-            elements.forEach(e => {
-                this.removePreviusClickEvent(e)
-            });
-        }, 300)
+        elements.forEach(e => {
+            this.removePreviusClickEvent(e)
+            this.changeStyleToWrong(e)
+        });
     }
 
-    changeStyle (e) {
-        e.style.background = 'LightGreen';
+    changeStyleToCorrect (e) {
+        e.style.background = '#67f56e';
         e.style.cursor = 'default';
+    }
+
+    changeStyleToWrong (e) {
+        e.style.background = '#f43636';
+        setTimeout(() => {
+            e.style.background = '';
+        }, 300)
     }
 }
 
