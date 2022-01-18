@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    min-height: 100%;
+    min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -58,8 +58,13 @@ body {
 .footer {
     position: absolute;
     bottom: 0;
-    height: 4em;
+    padding: 2em 0;
     width: 100%;
+    font-weight: 600;
+}
+
+.footer a {
+    color: #000;
 }
 
 @media (max-width: 75em) {
