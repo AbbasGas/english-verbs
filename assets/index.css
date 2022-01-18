@@ -1,7 +1,13 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
     font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
 }
 
 .container {
@@ -47,6 +53,10 @@ html, body {
 
 .tile[selected] {
     background: #f9db83;
+}
+
+.footer {
+    position: fixed;
 }
 
 @media (max-width: 75em) {
