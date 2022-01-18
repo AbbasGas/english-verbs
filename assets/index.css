@@ -3,9 +3,14 @@ html, body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 .container {
     width: 75em;
     margin: auto;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .wrap {
