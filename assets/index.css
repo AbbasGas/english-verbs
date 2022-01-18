@@ -1,18 +1,18 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    margin-block-start: 100%;
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
     position: relative;
-    min-height: 100%;
 }
 
 .container {
     width: 75em;
     margin: auto;
+    padding-bottom: 4em;
 }
 
 .text-center {
@@ -56,7 +56,10 @@ body {
 }
 
 .footer {
-    position: fixed;
+    position: absolute;
+    bottom: 0;
+    height: 4em;
+    width: 100%;
 }
 
 @media (max-width: 75em) {
